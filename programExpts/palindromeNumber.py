@@ -16,3 +16,5 @@ if input_number.isdigit():
             print(f"Number {input_number} is non-palindromic")
 else:
     print(f"{input_number} is not a valid number")
+
+print("successfully executed")
