@@ -9,4 +9,5 @@ And those are easy to use
 the package name is "openpyxl"
 Library = consists of many packages
 
-Task#1 - how many product entries we have per supplier and list the name of supplier with the respective numbers of entries
+Task# 1 - how many product entries we have per supplier and list the name of supplier with the respective numbers of entries
+Task# 2 - We need to calculate the net inventory values of all products per supplier
