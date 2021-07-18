@@ -1,0 +1,12 @@
+We need do the following exercise
+
+Python has many built-in modules which can handle file operations
+like read, write (io module)
+
+for working with spreadsheet we need to have external packages which will help us to do the same
+And those are easy to use
+
+the package name is "openpyxl"
+Library = consists of many packages
+
+Task#1 - how many product entries we have per supplier and list the name of supplier with the respective numbers of entries
