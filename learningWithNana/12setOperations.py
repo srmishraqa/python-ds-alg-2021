@@ -11,6 +11,7 @@ print(type(my_set))
 
 # create a set
 my_set_2 = {'Jan', 'Feb', 'Mar', 'Apr'}
+print(my_set_2)  # may or may not print in same order
 
 """
 Sets are unordered and unchangeable

@@ -6,5 +6,8 @@ int() -> takes input param as string and convert it to integers
 """
 
 # There are some functions only applicable for specific datatype
-"ABCD".lower()  # applicable for string
-[1, 2, 3].pop()  # applicable for List
+name = "ABCD"
+numbers_list = [1, 2, 3]
+print(name.lower())  # applicable for string
+numbers_list.pop()  # applicable for List
+print(numbers_list)

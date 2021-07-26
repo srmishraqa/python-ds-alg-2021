@@ -22,7 +22,7 @@ Summary:
 2. Int - whole numbers
 3. Float - decimal pt numbers
 4. Boolean - to check flagged condition -> returns only true or false
-5. List - list of elements containing unique or duplicate values , can be indexed
-6. Set - stores unique values and can't be indexed and random ordered
+5. List - list of elements containing unique or duplicate values , can be indexed , follows insertion Orders
+6. Set - stores unique values and can't be indexed and random ordered (does not follow insertion order)
 7. Dictionary - stores data in form of key value pairs like Map in java
 """
