@@ -27,6 +27,23 @@ class Employee:
         # if instance is not defined -> then will pick class variable value
         self.pay = self.pay * self.raise_amount
 
+    # repr() - magic method
+    def __repr__(self):
+        return "Employee('{}','{}',{})".format(self.first_name, self.last_name, self.pay)
+
+    # str() - magic method
+    def __str__(self):
+        return '{} - {}'.format(self.return_full_name(), self.email)
+
+    # add() - magic method
+    def __add__(self, other):
+        return self.pay + other.pay
+
+    # len() - to get the length of the employee's full name
+    def __len__(self):
+        return len(self.return_full_name())
+
+    # All these magic functions called Dunder methods
     """
     To turn a regular method into a class method
     we need to add a decorator called @classmethod
@@ -61,3 +78,24 @@ class Employee:
             return False
         else:
             return True
+
+
+"""
+Special or Magic Methods
+__repr__  -> unambiguous representation of object / for debugging
+__str__   -> represents a readable Object and used for display
+if we call str() and it is not defined repr() is the fallback option
+Always good to define repr() and then go for str()
+"""
+
+# ------------------calling magic functions------------------
+
+emp_11 = Employee("chota", "rajan", 100000)
+emp_12 = Employee("Bada", "Chote", 98000)
+
+print(repr(emp_11))
+print(str(emp_12))
+print(emp_11)
+
+print(emp_11+emp_12)
+print(emp_12.__len__())
