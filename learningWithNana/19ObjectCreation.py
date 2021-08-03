@@ -7,6 +7,7 @@ from post import Post
 
 app_user_one = User("soumya.mishra@email.com", "Soumya Mishra", "TestPassword", "Senior Test Engineer")
 app_user_one.get_user_info()
+print(app_user_one.name)
 print("-------------------")
 app_user_one.change_job_title("Lead Test Engineer")
 

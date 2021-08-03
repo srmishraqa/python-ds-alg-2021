@@ -26,3 +26,6 @@ month_values.append("Jan")
 print(month_values)
 month_values.remove("Jan")
 print(month_values)
+
+# length of the list
+print(month_values.__len__())

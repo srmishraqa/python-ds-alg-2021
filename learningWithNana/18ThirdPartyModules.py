@@ -21,4 +21,5 @@ for java - maven
 If we install python 3 , automatically pip is installed
 pip install django
 pip install django
+for mac - pip3 install django
 """
